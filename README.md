@@ -18,8 +18,8 @@
 
 ## Methods
 
-### run_query(self, query, data=False)
+### run_query(query, data=False)
 Only execute query, does not return anything.
 
-### array_query(self, query, data=False, with_fields=False)
+### array_query(query, data=False, with_fields=False)
 Return list of dicts with DB rows. Also returns the field names in the order they are specified in the database if the 'with_fields' flag is true.
